@@ -7,3 +7,9 @@
 # - 0,67 -> 13
 # - 198,45 -> 27
 
+num = input("Enter the number: ")
+sum = 0
+for i in num:
+    if i!=".":
+        sum = sum + int(i)
+print(f"The sum of the {num} is: ", sum)
