@@ -1,4 +1,4 @@
-# Задача 1. 
+# Задача 1.
 # Напишите программу, которая принимает на вход
 # большое число и показывает его цифру.
 # Без работы с последовательностями строк.
@@ -7,9 +7,10 @@
 # - 0,67 -> 13
 # - 198,45 -> 27
 
-num = input("Enter the number: ")
+number = input('Введите число: ')
+
 sum = 0
-for i in num:
-    if i!=".":
-        sum = sum + int(i)
-print(f"The sum of the {num} is: ", sum)
+for i in number:
+    if i != '.':
+        sum += int(i)
+print(sum)
